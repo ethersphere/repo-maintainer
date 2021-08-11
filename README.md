@@ -7,7 +7,7 @@ Also, for the contributors or collaborators to the repo, it might be helpful to 
 
 ## The role
 
-Repo Maintainer (LM) is a role linked to a specific repo. This person is responsible for this repository from a technical perspective, ensuring code quality, robustness, and functionality of the repo’s code. They do not handle the product that this repository is part of and hence is not in conflict with Product Owner (PO). Instead, it is expected that these two people will closely collaborate. While most of the requests might flow from the PO, the Repo Maintainer might raise needs, as well (for example dedicated time for refactors, test improvements, and so on). The Repo Maintainer might also be a Team Lead person who leads the team working on the repo. However, this is not a rule, and is up to the team and/or management to define this.
+Repo Maintainer (RM) is a role linked to a specific repo. This person is responsible for this repository from a technical perspective, ensuring code quality, robustness, and functionality of the repo’s code. They do not handle the product that this repository is part of and hence is not in conflict with Product Owner (PO). Instead, it is expected that these two people will closely collaborate. While most of the requests might flow from the PO, the Repo Maintainer might raise needs, as well (for example dedicated time for refactors, test improvements, and so on). Repo Maintainer also has to coordinate with Tech Lead to ensure that the repo is following team wide standards and directions he sets.
 
 ### Responsibilities
 
@@ -22,16 +22,17 @@ This includes the following tasks:
 2. Dependency management
    1. Merge dependabot PRs and fix potential issues
 3. Documentation
-   1. Ensuring/enforcing up to date README and the relative documentation
+   1. Ensuring/enforcing up to date README and the related documentation if applicable
 4. Release new versions of packages
 5. Changelog
    1. Correctly follow SemVer
    2. Indicate Breaking Changes
-   3. Clean Git history (related to 1.b)
+   3. Clean Git history (related to 1.2)
 6. Enforcing the “definition of done” that the team agreed on
 7. Communication with
    1. PO
-   2. other teams that need technical support for the repo, such as security, DevOps,…
+   2. Tech Lead
+   3. other teams that need technical support for the repo, such as security, DevOps,…
 
 ### Access rights
 
@@ -42,8 +43,8 @@ As some of the Repo Maintainer’s tasks require proper access rights he should 
 
 ### Backup Repo Maintainer
 
-It is possible that the LM can not be reachable for a longer time period. It is then recommended to define a Backup LM who then takes over the tasks when the main LM is not available. He should have all the necessary access rights that the main LM has.
-In best-case scenarios, Backup LM should be informed upfront about planned unavailability and be prepared for the task. Backup LM should not be misused as a go-around of the main LM. Additionally, in LM’s presence, the Backup LM should not be able to assume the role’s abilities and responsibilities
+It is possible that the RM can not be reachable for a longer time period. It is then recommended to define a Backup RM who then takes over the tasks when the main RM is not available. He should have all the necessary access rights that the main RM has.
+In best-case scenarios, Backup RM should be informed upfront about planned unavailability and be prepared for the task. Backup RM should not be misused as a go-around of the main RM. Additionally, in RM’s presence, the Backup RM should not be able to assume the role’s abilities and responsibilities
 
 ## Implementation
 
@@ -60,3 +61,7 @@ There are some features of the GitHub workflow that should be properly used for 
 ### CODEOWNERS
 
 It is also possible to use GitHub's [CODEOWNERS](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/about-code-owners) feature to support the LM role. Especially together with the feature "Require Code Owner approval before merging PR".
+
+## Maintainer
+
+ - [AuHau](https://github.com/auhau/)
