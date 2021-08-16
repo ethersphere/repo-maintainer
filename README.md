@@ -52,7 +52,7 @@ Repos that implement this role should clearly indicate the Repo Maintainer in it
 
 ### GitHub workflow
 
-There are some features of the GitHub workflow that should be properly used for good and clear communication amongst the contributors, collaborators, and the LM. This document is not meant to define the GitHub workflow, however, the following points are important for correct and painless execution of duties of the Maintainer:
+There are some features of the GitHub workflow that should be properly used for good and clear communication amongst the contributors, collaborators, and the RM. This document is not meant to define the GitHub workflow, however, the following points are important for correct and painless execution of duties of the Maintainer:
 
  - Correct usage of Draft PRs - WIP PRs should be Draft ones and only correctly marked PRs will be reviewed and merged.
  - If a PR is ready for review, but should not be merged yet because of some other dependencies it should have the “Do not merge” label.
@@ -60,7 +60,7 @@ There are some features of the GitHub workflow that should be properly used for 
 
 ### CODEOWNERS
 
-It is also possible to use GitHub's [CODEOWNERS](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/about-code-owners) feature to support the LM role. Especially together with the feature "Require Code Owner approval before merging PR".
+It is also possible to use GitHub's [CODEOWNERS](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/about-code-owners) feature to support the RM role. Especially together with the feature "Require Code Owner approval before merging PR".
 
 ## Maintainer
 
