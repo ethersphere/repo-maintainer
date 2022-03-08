@@ -41,14 +41,17 @@ As some of the Repo Maintainer’s tasks require proper access rights he should 
 - NPM write right
 - GitHub Admin role for the repo
 
-### Backup Repo Maintainer
-
-It is possible that the RM can not be reachable for a longer time period. It is then recommended to define a Backup RM who then takes over the tasks when the main RM is not available. He should have all the necessary access rights that the main RM has.
-In best-case scenarios, Backup RM should be informed upfront about planned unavailability and be prepared for the task. Backup RM should not be misused as a go-around of the main RM. Additionally, in RM’s presence, the Backup RM should not be able to assume the role’s abilities and responsibilities
-
 ## Implementation
 
 Repos that implement this role should clearly indicate the Repo Maintainer in its README. This should include some contact information and a link to this document (which explains the role).
+
+### Two Maintainers per repo
+
+There should be two Repo Maintainers defined for each repo - **main** and **backup** maintainers. 
+
+The main maintainer has the ownership over the repo and the main responsobility. Backup maintainer is there to review the main maintainer's work and to step in if the main maintainer is not available. Backup maintainer should have good knowledge of the repo and the project to efficiently step in as well as all the access rights. 
+
+The order of the maintainers should reflect the main and backup roles, where the main maintainer should be first.
 
 ### GitHub workflow
 
@@ -60,7 +63,7 @@ There are some features of the GitHub workflow that should be properly used for 
 
 ### CODEOWNERS
 
-It is also possible to use GitHub's [CODEOWNERS](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/about-code-owners) feature to support the RM role. Especially together with the feature "Require Code Owner approval before merging PR".
+Very helpful feature of GitHub to support this workflow is [Code Owners](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/about-code-owners). It is highly preferable to use it and define the Repo Maintainers as Code Owners as well. Optinally the maintainers can enable the feature of protected branch "Require Code Owner approval before merging PR".
 
 ## Maintainer
 
