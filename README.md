@@ -64,4 +64,3 @@ It is also possible to use GitHub's [CODEOWNERS](https://docs.github.com/en/free
 
 ## Maintainer
 
- - [AuHau](https://github.com/auhau/)
